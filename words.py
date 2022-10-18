@@ -1,4 +1,5 @@
-with open('/Users/adrianmendozaperez/Documents/Python/sms/text.txt', 'r') as f:
+#Change filepath of where the script is
+with open('[INSERT FILEPATH OF SCRIPT]', 'r') as f:
     text = f.read()
     words = text.split()
 length = len(words)
