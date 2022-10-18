@@ -1,7 +1,7 @@
 #runs a script that sends sms message out loud through apple terminal
 #use cd to find SMS folder in terminal
 #run send.scpt to send the sms msg
-#to run type: MacBook-Pro:sms adrianmendozaperez$ osascript send.scpt +18575009263 'msg'
+#to run type: MacBook-Pro:sms adrianmendozaperez$ osascript send.scpt +00000000000 (your number) 'msg'
 
 on run {targetPhoneNumber, targetMessageToSend}
     tell application "Messages"
