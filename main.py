@@ -16,4 +16,4 @@ def send_message(phone_number, message):
 if __name__ == '__main__':
     words = get_words('text.txt') #gives the file path 
     for x in words: #gets one word at a time in the txt.txt file starting from 0-max 
-        send_message(config.number, x) #sends the one word
+        send_message(config.numberOne, x) #sends the one word
