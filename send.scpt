@@ -2,7 +2,6 @@
 #use cd to find SMS folder in terminal
 #run send.scpt to send the sms msg
 #to run type: MacBook-Pro:[folder where script is stored] [user directory] osascript send.scpt +00000000000 (your number) 'msg'
-#^specifications for my computer
 
 on run {targetPhoneNumber, targetMessageToSend}
     tell application "Messages"
