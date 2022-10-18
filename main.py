@@ -2,7 +2,7 @@ import os
 import config
 
 #To run in  terminal: 
-#cd documents, cd python, cd sms, python3 main.py
+#cd to the directory where folder of the script is being stored. Then type "python3 main.py" into the terminal to run the script.
 #creates functions to read a file and to send a message one word at a time
 def get_words(file_path): 
     with open(file_path, 'r') as f:
