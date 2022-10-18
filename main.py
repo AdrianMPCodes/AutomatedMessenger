@@ -1,7 +1,7 @@
 import os
 import config
 
-#Runs
+#To run in  terminal: 
 #cd documents, cd python, cd sms, python3 main.py
 #creates functions to read a file and to send a message one word at a time
 def get_words(file_path): 
